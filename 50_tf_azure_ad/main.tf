@@ -11,9 +11,9 @@ provider "azuread" {
 }
 
 resource "azuread_user" "user" {
-  user_principal_name = "houssem@houssemdellai.onmicrosoft.com"
-  display_name        = "Houssem Dellai"
-  mail_nickname       = "Houssem"
+  user_principal_name = "zouhair@zed.onmicrosoft.com"
+  display_name        = "zouhair zed"
+  mail_nickname       = "zod"
   password            = "SecretP@sswd99!"
 }
 
